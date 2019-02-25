@@ -1,0 +1,55 @@
+      Data on : “mortality_life_expectancy”
+
+SELECT country_name FROM `bigquery-public-data.census_bureau_international.mortality_life_expectancy` GROUP BY country_name
+
+            Result:   https://docs.google.com/spreadsheets/d/1lKzYOXZOaMXfL2LxYc5KClc9qYFtfML8sb7muFPb08w/edit?usp=sharing
+
+
+2. Data on : “ midyear_population_agespecific”
+
+SELECT country_code FROM `bigquery-public-data.census_bureau_international.midyear_population_agespecific` GROUP BY country_code
+
+Result: https://docs.google.com/spreadsheets/d/1x5RGEvlYGwbfMMxLWraHZ8WiX9gfG1Y6biDlaCthHuM/edit?usp=sharing
+
+
+3. Data on : “ midyear_population_agespecific”
+
+SELECT sex FROM `bigquery-public-data.census_bureau_international.midyear_population_agespecific`GROUP BY sex
+
+Result: https://docs.google.com/spreadsheets/d/1x5RGEvlYGwbfMMxLWraHZ8WiX9gfG1Y6biDlaCthHuM/edit?usp=sharing
+
+4. Data on : “outpatient_charges_2015” under cms_medicare
+
+SELECT apc FROM `bigquery-public-data.cms_medicare.outpatient_charges_2015` GROUP BY apc
+
+Result: https://docs.google.com/spreadsheets/d/1ovIrODM1sOcFSJ2CqFrX2lIkVAQ_ERnT0esAITEFvZE/edit?usp=sharing
+
+
+
+
+5.Data on : “age specific fertility rates” under census_bureau
+
+ SELECT fertility_rate_20_24 FROM `bigquery-public-data.census_bureau_international.age_specific_fertility_rates`GROUP by fertility_rate_20_24
+
+Result: https://docs.google.com/spreadsheets/d/1Hdq9Ktrj6jqDg5bbzOe1DYnCjrt6CPlLMq8nLNE5g1M/edit?usp=sharing
+
+
+6. Data on : “home_health_agencies_2014” under cms_medicare
+
+SELECT city FROM `bigquery-public-data.cms_medicare.home_health_agencies_2014` GROUP BY city
+
+Result: https://docs.google.com/spreadsheets/d/1pzhjk2daUyQ0KcZ3zh6eXBZBVkajCXEMKW3DaYzzZZo/edit?usp=sharing
+
+7. Data on: “ usa_1910_2013” under usa_names
+
+SELECT name FROM `bigquery-public-data.usa_names.usa_1910_2013` GROUP BY name
+ 
+Result: https://docs.google.com/spreadsheets/d/1aq1KxDHuyMr1x-Jw11MI5peVU4bkiiiPJt0IHY8Ge7U/edit?usp=sharing
+
+8.  Data on : “ physicians_and_other_suppliers_2012” under cms_medicare
+
+SELECT * FROM `bigquery-public-data.cms_medicare.physicians_and_other_supplier_2012` WHERE nppes_credentials="CRNA"
+
+Result:
+https://docs.google.com/spreadsheets/d/1Fm_ME5_SpKmNZjl-kCtKNh55MuC3lYfU8h8qIyXQy7o/edit?usp=sharing
+
